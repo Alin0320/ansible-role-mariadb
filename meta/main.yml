@@ -1,5 +1,6 @@
 galaxy_info:
   author: Alin0320
+  role_name: mariadb
   description: install mariadb on Centos7
   company: your company (optional)
 
