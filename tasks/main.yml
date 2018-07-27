@@ -1,0 +1,15 @@
+---
+# tasks file for test-role-1
+
+- name: Install Mariadb package
+  yum: name={{ item }} state=installed
+  with_items:
+      - mariadb-server
+      - mariadb
+      - mariadb-libs
+      - mariadb-devel
+      - MySQL-python
+
+- name: start mariadb
+  service: name=mariadb state=started
+

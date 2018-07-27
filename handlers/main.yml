@@ -1,0 +1,5 @@
+---
+# handlers file for test-role-1
+
+- name: restart mariadb
+  service: name=mariadb state=restarted
