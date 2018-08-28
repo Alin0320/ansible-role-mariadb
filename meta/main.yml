@@ -2,7 +2,7 @@ galaxy_info:
   author: Alin0320
   role_name: mariadb
   description: install mariadb on Centos7
-  company: your company (optional)
+  company: huron (optional)
 
   # If the issue tracker for your role is not on github, uncomment the
   # next line and provide a value
